@@ -28,7 +28,7 @@ Resnik and Varion were the first one to coin the term Recommender system to gene
 
 ## 2.1 Types of Recommender systems
 
-## Association based Recommendation 
+## 2.1.1 Association based Recommendation 
 
 Association Rule Mining, as the name suggests, are simple rules of “If/Then” statements that help in identifying relationships between seemingly independent relational databases or other data +repositories.
 Association rule mining is suitable for non-numeric, categorical data and requires just a little bit more than simple counting.
@@ -48,7 +48,7 @@ Confidence = P(E2|E1) [Probability of Buying product B given that product A has 
 ## Lift
 Lift is one more parameter of interest in the association analysis. Lift is nothing but the ratio of Confidence to Expected Confidence.
 
-## Collaborative
+## 2.1.2 Collaborative Filtering
 Collaborative filtering basically filters information by using the recommendations of other users. It is based on the idea that people who agreed in their evaluation of certain books in the past are likely to agree again in the future. It captures the users’ interests from their ratings of books they have read. It matches these ratings against the ratings of other users of the same book to find users with similar interests so as to group them as similar users. Here, a user profile is the unit of comparison, which contains the information provided by the user whether in explicit manner or implicit manner. The comparison of user profiles is used in finding the overlap in interests among different users. The profiles with high overlap are then grouped to be used in future recommendations. We can think of it as giving opinions or taking opinions from friends regarding any books which they have used.
 In this technique, the user is given recommendation on the basis of similar user profiles which are calculated through various measures. Mostly Pearson correlation coefficient, Cosine similarity measure and Euclidian distance are taken as widely applied similarity measures.
 
@@ -61,16 +61,16 @@ User-item filtering calculates the distance between users based on their ratings
 Item based collaborative filtering was originally developed by Amazon and draws inferences about the relationship between different books based on which set of books are/were purchased together. The more often two items appear in the same user history, the “closer” they’re said to be to one another. So, when someone comes and adds a book to their cart, the algorithm will suggest books that are close, over things that aren’t.
 
 
-# 2.3 	Distance metrics
+# 2.2 	Distance metrics
 A metric or distance function is a function that defines the distance between elements of a set as a non-negative real number. If the distance is zero, both elements are equivalent under that specific metric. 
 Distance functions thus provide a way to measure how close two items are, where items do not have to be numbers but can also be vectors, matrices or arbitrary objects. 
 Distance functions are often used as error or cost functions to be minimized in an optimization problem.
 Following are the distance functions on vectors and arrays:
 
-## 1. Cosine-based Similarity
-## 2. Correlation-based Similarity
-## 3. Jacquard
-## 4. Euclidean
+### 1. Cosine-based Similarity
+### 2. Correlation-based Similarity
+### 3. Jacquard
+### 4. Euclidean
 
 # Data Set
 You can find the dataset from the given link :
