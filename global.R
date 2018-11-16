@@ -1,5 +1,5 @@
 # Setting the working directory
-setwd("C:\\Users\\manis\\Desktop\\BooksVilla\\V5")
+setwd("Set Path")
 
 #-------------------------------
 # All required packages
@@ -33,7 +33,7 @@ library(recommenderlab)
 
 
 # Reading the data
-books <- read.csv("C:\\Users\\manis\\Desktop\\Final_filtered_columns_v3.csv", nrows = 30000)
+books <- read.csv("Path\Final_filtered_columns_v3.csv", nrows = 30000)
 
 # Extracting the list of unique Genres, Authors, Titles from the data
 unique_genres <- distinct(books, Genre)
