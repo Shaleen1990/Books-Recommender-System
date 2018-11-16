@@ -74,4 +74,4 @@ Following are the distance functions on vectors and arrays:
 
 # Data Set
 You can find the dataset from the given link :
-
+https://drive.google.com/open?id=1BoPuZ-ir1pHkjWzZ80Cu7jj5s0bGGcyC
